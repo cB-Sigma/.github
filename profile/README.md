@@ -12,6 +12,7 @@
 |---|---|
 | [**dlms**](https://github.com/cB-Sigma/dlms) | DLMS/COSEM electricity meters, IEC 62056-21 and India's IS 15959 |
 | [**mbus**](https://github.com/cB-Sigma/mbus) | wired and wireless M-Bus, OMS, heat, water and gas meters |
+| [**ocpp**](https://github.com/cB-Sigma/ocpp) | EV chargers, OCPP 1.6, 2.0.1 and 2.1 |
 | [**openadr**](https://github.com/cB-Sigma/openadr) | demand response, OpenADR 2.0b, 2.0a and 3 |
 | [**sunspec**](https://github.com/cB-Sigma/sunspec) | solar inverters and DER controls over Modbus |
 | [**dnp3**](https://github.com/cB-Sigma/dnp3) | DNP3 masters and outstations, Secure Authentication v5 |
@@ -43,6 +44,7 @@ Each library has a twin that pretends to be the device, for tests and for the be
 
 [`dlms-sim`](https://github.com/cB-Sigma/dlms-sim) &nbsp;
 [`mbus-sim`](https://github.com/cB-Sigma/mbus-sim) &nbsp;
+[`ocpp-sim`](https://github.com/cB-Sigma/ocpp-sim) &nbsp;
 [`openadr-sim`](https://github.com/cB-Sigma/openadr-sim) &nbsp;
 [`sunspec-sim`](https://github.com/cB-Sigma/sunspec-sim) &nbsp;
 [`dnp3-sim`](https://github.com/cB-Sigma/dnp3-sim) &nbsp;
