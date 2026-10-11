@@ -6,7 +6,6 @@
 
 <br>
 
-<p align="center"><code>78 78 0D 01</code> &nbsp;·&nbsp; <code>7E A0</code> &nbsp;·&nbsp; <code>$$PVT</code> &nbsp;·&nbsp; <code>_hue._tcp</code></p>
 
 <p align="center">
 Meters, lights, trackers and sirens each speak their own language.<br>
