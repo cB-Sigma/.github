@@ -16,6 +16,7 @@
 | [**mbus**](https://github.com/cB-Sigma/mbus) | wired and wireless M-Bus, OMS, heat, water and gas meters |
 | [**lorawanns**](https://github.com/cB-Sigma/lorawanns) | LoRaWAN through ChirpStack, The Things Stack and five more |
 | [**lwm2m**](https://github.com/cB-Sigma/lwm2m) | LightweightM2M content formats and object model |
+| [**evroaming**](https://github.com/cB-Sigma/evroaming) | EV roaming: OCPI 2.2.1, OICP 2.3, OSCP 2.0 |
 | [**ocpp**](https://github.com/cB-Sigma/ocpp) | EV chargers, OCPP 1.6, 2.0.1 and 2.1 |
 | [**openadr**](https://github.com/cB-Sigma/openadr) | demand response, OpenADR 2.0b, 2.0a and 3 |
 | [**sunspec**](https://github.com/cB-Sigma/sunspec) | solar inverters and DER controls over Modbus |
@@ -59,6 +60,7 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`mbus-sim`](https://github.com/cB-Sigma/mbus-sim) &nbsp;
 [`lorawanns-sim`](https://github.com/cB-Sigma/lorawanns-sim) &nbsp;
 [`lwm2m-sim`](https://github.com/cB-Sigma/lwm2m-sim) &nbsp;
+[`evroaming-sim`](https://github.com/cB-Sigma/evroaming-sim) &nbsp;
 [`ocpp-sim`](https://github.com/cB-Sigma/ocpp-sim) &nbsp;
 [`openadr-sim`](https://github.com/cB-Sigma/openadr-sim) &nbsp;
 [`sunspec-sim`](https://github.com/cB-Sigma/sunspec-sim) &nbsp;
