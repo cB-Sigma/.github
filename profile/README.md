@@ -21,6 +21,7 @@
 | [**schc**](https://github.com/cB-Sigma/schc) | SCHC header compression and fragmentation for LPWAN, and V.44 |
 | [**shelly**](https://github.com/cB-Sigma/shelly) | Shelly relays, dimmers and sensors, Gen1 and Gen2+ |
 | [**hue**](https://github.com/cB-Sigma/hue) | Hue bridges, CLIP v2 and the event stream |
+| [**miio**](https://github.com/cB-Sigma/miio) | Xiaomi miIO and MIoT on the LAN |
 | [**tuyalan**](https://github.com/cB-Sigma/tuyalan) | Tuya devices on the LAN, protocol 3.1 to 3.5 |
 | [**wiz**](https://github.com/cB-Sigma/wiz) | the local UDP API of WiZ lights |
 | [**tlsx**](https://github.com/cB-Sigma/tlsx) | crypto/tls with pre-shared keys, raw public keys and the industrial edges |
@@ -46,6 +47,7 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`cap-sim`](https://github.com/cB-Sigma/cap-sim) &nbsp;
 [`shelly-sim`](https://github.com/cB-Sigma/shelly-sim) &nbsp;
 [`hue-sim`](https://github.com/cB-Sigma/hue-sim) &nbsp;
+[`miio-sim`](https://github.com/cB-Sigma/miio-sim) &nbsp;
 [`tuyalan-sim`](https://github.com/cB-Sigma/tuyalan-sim) &nbsp;
 [`wiz-sim`](https://github.com/cB-Sigma/wiz-sim)
 
