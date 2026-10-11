@@ -11,6 +11,8 @@
 | library | dialect |
 |---|---|
 | [**dlms**](https://github.com/cB-Sigma/dlms) | DLMS/COSEM electricity meters, IEC 62056-21 and India's IS 15959 |
+| [**cim**](https://github.com/cB-Sigma/cim) | IEC 61968-9 metering messages and their envelopes |
+| [**multispeak**](https://github.com/cB-Sigma/multispeak) | MultiSpeak 3.0 and 5.0 between utility systems |
 | [**mbus**](https://github.com/cB-Sigma/mbus) | wired and wireless M-Bus, OMS, heat, water and gas meters |
 | [**lorawanns**](https://github.com/cB-Sigma/lorawanns) | LoRaWAN through ChirpStack, The Things Stack and five more |
 | [**lwm2m**](https://github.com/cB-Sigma/lwm2m) | LightweightM2M content formats and object model |
@@ -19,6 +21,7 @@
 | [**sunspec**](https://github.com/cB-Sigma/sunspec) | solar inverters and DER controls over Modbus |
 | [**dnp3**](https://github.com/cB-Sigma/dnp3) | DNP3 masters and outstations, Secure Authentication v5 |
 | [**iec60870**](https://github.com/cB-Sigma/iec60870) | IEC 60870-5-104 and -101 telecontrol |
+| [**indiagov**](https://github.com/cB-Sigma/indiagov) | PM-KUSUM solar pumps and Jal Jeevan Mission water devices |
 | [**trackers**](https://github.com/cB-Sigma/trackers) | GT06, Teltonika, TK103, Queclink, Meitrack, Ruptela, JT/T 808, H02, OsmAnd, AIS-140 |
 | [**mdns**](https://github.com/cB-Sigma/mdns) | multicast DNS and DNS-SD that finds what answers in either voice |
 | [**talq**](https://github.com/cB-Sigma/talq) | TALQ smart-city lighting, gateway and CMS |
@@ -49,6 +52,8 @@
 Each library has a twin that pretends to be the device, for tests and for the bench.
 
 [`dlms-sim`](https://github.com/cB-Sigma/dlms-sim) &nbsp;
+[`cim-sim`](https://github.com/cB-Sigma/cim-sim) &nbsp;
+[`multispeak-sim`](https://github.com/cB-Sigma/multispeak-sim) &nbsp;
 [`mbus-sim`](https://github.com/cB-Sigma/mbus-sim) &nbsp;
 [`lorawanns-sim`](https://github.com/cB-Sigma/lorawanns-sim) &nbsp;
 [`lwm2m-sim`](https://github.com/cB-Sigma/lwm2m-sim) &nbsp;
@@ -57,6 +62,7 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`sunspec-sim`](https://github.com/cB-Sigma/sunspec-sim) &nbsp;
 [`dnp3-sim`](https://github.com/cB-Sigma/dnp3-sim) &nbsp;
 [`iec60870-sim`](https://github.com/cB-Sigma/iec60870-sim) &nbsp;
+[`indiagov-sim`](https://github.com/cB-Sigma/indiagov-sim) &nbsp;
 [`trackers-sim`](https://github.com/cB-Sigma/trackers-sim) &nbsp;
 [`mdns-sim`](https://github.com/cB-Sigma/mdns-sim) &nbsp;
 [`talq-sim`](https://github.com/cB-Sigma/talq-sim) &nbsp;
