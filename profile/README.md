@@ -19,6 +19,8 @@
 | [**mdns**](https://github.com/cB-Sigma/mdns) | multicast DNS and DNS-SD that finds what answers in either voice |
 | [**cap**](https://github.com/cB-Sigma/cap) | Common Alerting Protocol: alerts, signatures, areas, feeds |
 | [**schc**](https://github.com/cB-Sigma/schc) | SCHC header compression and fragmentation for LPWAN, and V.44 |
+| [**knx**](https://github.com/cB-Sigma/knx) | KNX buildings over IP, KNX IP Secure, ETS projects and keyrings |
+| [**mqttsn**](https://github.com/cB-Sigma/mqttsn) | MQTT-SN 1.2 and 2.0 for sensors that sleep |
 | [**shelly**](https://github.com/cB-Sigma/shelly) | Shelly relays, dimmers and sensors, Gen1 and Gen2+ |
 | [**hue**](https://github.com/cB-Sigma/hue) | Hue bridges, CLIP v2 and the event stream |
 | [**miio**](https://github.com/cB-Sigma/miio) | Xiaomi miIO and MIoT on the LAN |
@@ -45,6 +47,8 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`trackers-sim`](https://github.com/cB-Sigma/trackers-sim) &nbsp;
 [`mdns-sim`](https://github.com/cB-Sigma/mdns-sim) &nbsp;
 [`cap-sim`](https://github.com/cB-Sigma/cap-sim) &nbsp;
+[`knx-sim`](https://github.com/cB-Sigma/knx-sim) &nbsp;
+[`mqttsn-sim`](https://github.com/cB-Sigma/mqttsn-sim) &nbsp;
 [`shelly-sim`](https://github.com/cB-Sigma/shelly-sim) &nbsp;
 [`hue-sim`](https://github.com/cB-Sigma/hue-sim) &nbsp;
 [`miio-sim`](https://github.com/cB-Sigma/miio-sim) &nbsp;
