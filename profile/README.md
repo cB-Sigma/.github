@@ -18,6 +18,9 @@ We write down what they say, in Go, and keep a copy of each machine to talk back
 
 | library | dialect |
 |---|---|
+| [**dlms**](https://github.com/cB-Sigma/dlms) | DLMS/COSEM electricity meters, IEC 62056-21 and India's IS 15959 |
+| [**dnp3**](https://github.com/cB-Sigma/dnp3) | DNP3 masters and outstations, Secure Authentication v5 |
+| [**iec60870**](https://github.com/cB-Sigma/iec60870) | IEC 60870-5-104 and -101 telecontrol |
 | [**trackers**](https://github.com/cB-Sigma/trackers) | GT06, Teltonika, TK103, Queclink, Meitrack, Ruptela, JT/T 808, H02, OsmAnd, AIS-140 |
 | [**mdns**](https://github.com/cB-Sigma/mdns) | multicast DNS and DNS-SD that finds what answers in either voice |
 | [**cap**](https://github.com/cB-Sigma/cap) | Common Alerting Protocol: alerts, signatures, areas, feeds |
@@ -27,11 +30,17 @@ We write down what they say, in Go, and keep a copy of each machine to talk back
 | [**iotcrypto**](https://github.com/cB-Sigma/iotcrypto) | CCM, KMAC, AES-MMO, brainpool, Koblitz curves, ECQV, ECMQV, SCRAM |
 | [**iotsec**](https://github.com/cB-Sigma/iotsec) | the seams through which a protocol reaches its security |
 | [**lanbcast**](https://github.com/cB-Sigma/lanbcast) | a broadcast that still finds the LAN behind a VPN |
+| [**xsd**](https://github.com/cB-Sigma/xsd) | W3C XML Schema 1.0 validation |
+| [**jsonschema**](https://github.com/cB-Sigma/jsonschema) | JSON Schema sets, ordered failures, dialects |
+| [**brokersim**](https://github.com/cB-Sigma/brokersim) | AMQP brokers that exist only inside a test |
 
 ### ∿ &nbsp;machines
 
 Each library has a twin that pretends to be the device, for tests and for the bench.
 
+[`dlms-sim`](https://github.com/cB-Sigma/dlms-sim) &nbsp;
+[`dnp3-sim`](https://github.com/cB-Sigma/dnp3-sim) &nbsp;
+[`iec60870-sim`](https://github.com/cB-Sigma/iec60870-sim) &nbsp;
 [`trackers-sim`](https://github.com/cB-Sigma/trackers-sim) &nbsp;
 [`mdns-sim`](https://github.com/cB-Sigma/mdns-sim) &nbsp;
 [`cap-sim`](https://github.com/cB-Sigma/cap-sim) &nbsp;
