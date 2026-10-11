@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cB-Sigma/.github/main/profile/banner-dark.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cB-Sigma/.github/main/profile/banner-light.svg?v=3">
-  <img alt="[cB]-Sigma: a sigma drawn as a network of nodes over faint protocol frames" src="https://raw.githubusercontent.com/cB-Sigma/.github/main/profile/banner-dark.svg?v=3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cB-Sigma/.github/main/profile/sigma-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cB-Sigma/.github/main/profile/sigma-light.svg">
+  <img alt="[cB]-Sigma: a sigma drawn as a network of nodes over faint protocol frames" src="https://raw.githubusercontent.com/cB-Sigma/.github/main/profile/sigma-dark.svg" width="100%">
 </picture>
 
 <br>
