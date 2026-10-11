@@ -6,14 +6,6 @@
 
 <br>
 
-
-<p align="center">
-Meters, lights, trackers and sirens each speak their own language.<br>
-We write down what they say, in Go, and keep a copy of each machine to talk back.
-</p>
-
-<br>
-
 ### Σ &nbsp;libraries
 
 | library | dialect |
