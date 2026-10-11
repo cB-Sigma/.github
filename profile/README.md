@@ -37,6 +37,7 @@
 | [**iotcrypto**](https://github.com/cB-Sigma/iotcrypto) | CCM, KMAC, AES-MMO, brainpool, Koblitz curves, ECQV, ECMQV, SCRAM |
 | [**iotsec**](https://github.com/cB-Sigma/iotsec) | the seams through which a protocol reaches its security |
 | [**lanbcast**](https://github.com/cB-Sigma/lanbcast) | a broadcast that still finds the LAN behind a VPN |
+| [**piwebapi**](https://github.com/cB-Sigma/piwebapi) | AVEVA PI Web API historian, with Kerberos |
 | [**xsd**](https://github.com/cB-Sigma/xsd) | W3C XML Schema 1.0 validation |
 | [**jsonschema**](https://github.com/cB-Sigma/jsonschema) | JSON Schema sets, ordered failures, dialects |
 | [**jscodec**](https://github.com/cB-Sigma/jscodec) | LoRaWAN payload codecs in JavaScript, run in a Go sandbox |
@@ -67,6 +68,7 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`tplink-sim`](https://github.com/cB-Sigma/tplink-sim) &nbsp;
 [`miio-sim`](https://github.com/cB-Sigma/miio-sim) &nbsp;
 [`tuyalan-sim`](https://github.com/cB-Sigma/tuyalan-sim) &nbsp;
+[`piwebapi-sim`](https://github.com/cB-Sigma/piwebapi-sim) &nbsp;
 [`wiz-sim`](https://github.com/cB-Sigma/wiz-sim)
 
 ### ⌁ &nbsp;terms
