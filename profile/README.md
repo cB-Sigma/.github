@@ -17,7 +17,7 @@ We write down what they say, in Go, and keep a copy of each machine to talk back
 
 ### Σ &nbsp;libraries
 
-| | |
+| library | dialect |
 |---|---|
 | [**trackers**](https://github.com/cB-Sigma/trackers) | GT06, Teltonika, TK103, Queclink, Meitrack, Ruptela, JT/T 808, H02, OsmAnd, AIS-140 |
 | [**mdns**](https://github.com/cB-Sigma/mdns) | multicast DNS and DNS-SD that finds what answers in either voice |
