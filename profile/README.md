@@ -11,6 +11,7 @@
 | library | dialect |
 |---|---|
 | [**dlms**](https://github.com/cB-Sigma/dlms) | DLMS/COSEM electricity meters, IEC 62056-21 and India's IS 15959 |
+| [**mbus**](https://github.com/cB-Sigma/mbus) | wired and wireless M-Bus, OMS, heat, water and gas meters |
 | [**dnp3**](https://github.com/cB-Sigma/dnp3) | DNP3 masters and outstations, Secure Authentication v5 |
 | [**iec60870**](https://github.com/cB-Sigma/iec60870) | IEC 60870-5-104 and -101 telecontrol |
 | [**trackers**](https://github.com/cB-Sigma/trackers) | GT06, Teltonika, TK103, Queclink, Meitrack, Ruptela, JT/T 808, H02, OsmAnd, AIS-140 |
@@ -32,6 +33,7 @@
 Each library has a twin that pretends to be the device, for tests and for the bench.
 
 [`dlms-sim`](https://github.com/cB-Sigma/dlms-sim) &nbsp;
+[`mbus-sim`](https://github.com/cB-Sigma/mbus-sim) &nbsp;
 [`dnp3-sim`](https://github.com/cB-Sigma/dnp3-sim) &nbsp;
 [`iec60870-sim`](https://github.com/cB-Sigma/iec60870-sim) &nbsp;
 [`trackers-sim`](https://github.com/cB-Sigma/trackers-sim) &nbsp;
