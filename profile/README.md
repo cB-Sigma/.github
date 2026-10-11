@@ -18,6 +18,8 @@
 | [**mdns**](https://github.com/cB-Sigma/mdns) | multicast DNS and DNS-SD that finds what answers in either voice |
 | [**cap**](https://github.com/cB-Sigma/cap) | Common Alerting Protocol: alerts, signatures, areas, feeds |
 | [**schc**](https://github.com/cB-Sigma/schc) | SCHC header compression and fragmentation for LPWAN, and V.44 |
+| [**shelly**](https://github.com/cB-Sigma/shelly) | Shelly relays, dimmers and sensors, Gen1 and Gen2+ |
+| [**hue**](https://github.com/cB-Sigma/hue) | Hue bridges, CLIP v2 and the event stream |
 | [**tuyalan**](https://github.com/cB-Sigma/tuyalan) | Tuya devices on the LAN, protocol 3.1 to 3.5 |
 | [**wiz**](https://github.com/cB-Sigma/wiz) | the local UDP API of WiZ lights |
 | [**tlsx**](https://github.com/cB-Sigma/tlsx) | crypto/tls with pre-shared keys, raw public keys and the industrial edges |
@@ -40,6 +42,8 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`trackers-sim`](https://github.com/cB-Sigma/trackers-sim) &nbsp;
 [`mdns-sim`](https://github.com/cB-Sigma/mdns-sim) &nbsp;
 [`cap-sim`](https://github.com/cB-Sigma/cap-sim) &nbsp;
+[`shelly-sim`](https://github.com/cB-Sigma/shelly-sim) &nbsp;
+[`hue-sim`](https://github.com/cB-Sigma/hue-sim) &nbsp;
 [`tuyalan-sim`](https://github.com/cB-Sigma/tuyalan-sim) &nbsp;
 [`wiz-sim`](https://github.com/cB-Sigma/wiz-sim)
 
