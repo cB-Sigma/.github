@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="[cB]-Sigma">
+  <title>[cB]-Sigma</title>
+  <style>
+    .bg { fill: #f7f8fa; }
+    .hex { fill: #e6e9ee; font: 13px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; }
+    .mesh { stroke: #e1e5ea; stroke-width: 1; }
+    .far { fill: #c3cad3; }
+    .edge { stroke: #b4bfcb; stroke-width: 1.4; fill: none; }
+    .node { fill: #4d5d70; }
+    .core { fill: #0b1220; }
+    .pulse { stroke: #0b1220; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-dasharray: 46 900; animation: run 6s linear infinite; }
+    .halo { fill: none; stroke: #4d5d70; stroke-width: 1; opacity: 0; transform-box: fill-box; transform-origin: center; animation: ping 6s ease-out infinite; }
+    .name { fill: #0b1220; font: 600 26px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 10px; }
+    .line { fill: #5b6b7d; font: 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 3px; }
+    .blink { animation: blink 1.2s steps(1) infinite; }
+    @keyframes run { from { stroke-dashoffset: 946; } to { stroke-dashoffset: 0; } }
+    @keyframes ping { 0% { opacity: .7; transform: scale(1); } 40% { opacity: 0; transform: scale(3.2); } 100% { opacity: 0; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .halo, .blink { animation: none; } }
+  </style>
+
+  <rect class="bg" width="1200" height="360"/>
+
+  <!-- frames in the shapes of the protocols here, too faint to read at a glance -->
+  <text class="hex" x="24" y="34">78 78 0D 01 01 23 45 67 89 01 23 45 00 01 8C DD 0D 0A</text>
+  <text class="hex" x="640" y="34">7E A0 07 03 21 93 0F 01 7E</text>
+  <text class="hex" x="60" y="78">40 01 04 D2 BB 2E 77 65 6C 6C 2D 6B 6E 6F 77 6E</text>
+  <text class="hex" x="760" y="96">00 00 00 00 00 01 00 00 00 00 00 00 05 5F 68 75 65</text>
+  <text class="hex" x="18" y="330">$$PVT,AIS,NR,16,L,0000000,KA01AB0000,1,11102026</text>
+  <text class="hex" x="900" y="300">05 64 0A C0 01 00 0A 00 E0 8C</text>
+  <text class="hex" x="980" y="346">68 04 07 00 00 00</text>
+  <text class="hex" x="40" y="252">{"method":"getPilot","params":{}}</text>
+  <text class="hex" x="860" y="240">AT+GTRTO=gv300,1,,,,,,FFFF$</text>
+
+  <g transform="translate(600 150) scale(1.3) translate(-600 -150)">
+  <!-- the far field -->
+  <g class="mesh">
+    <line x1="150" y1="130" x2="300" y2="190"/><line x1="300" y1="190" x2="410" y2="120"/>
+    <line x1="410" y1="120" x2="520" y2="70"/><line x1="300" y1="190" x2="430" y2="250"/>
+    <line x1="430" y1="250" x2="520" y2="230"/><line x1="680" y1="70" x2="800" y2="140"/>
+    <line x1="800" y1="140" x2="930" y2="110"/><line x1="800" y1="140" x2="880" y2="210"/>
+    <line x1="680" y1="230" x2="880" y2="210"/><line x1="930" y1="110" x2="1060" y2="170"/>
+    <line x1="880" y1="210" x2="1060" y2="170"/><line x1="150" y1="130" x2="230" y2="60"/>
+  </g>
+  <g class="far">
+    <circle cx="150" cy="130" r="2.5"/><circle cx="230" cy="60" r="2"/><circle cx="300" cy="190" r="2.5"/>
+    <circle cx="410" cy="120" r="2"/><circle cx="430" cy="250" r="2.5"/><circle cx="800" cy="140" r="2.5"/>
+    <circle cx="930" cy="110" r="2"/><circle cx="880" cy="210" r="2.5"/><circle cx="1060" cy="170" r="2"/>
+  </g>
+
+  <!-- sigma -->
+  <path class="edge" d="M680 70 L520 70 L612 150 L520 230 L680 230"/>
+  <path class="pulse" d="M680 70 L520 70 L612 150 L520 230 L680 230"/>
+  <g class="node">
+    <circle cx="680" cy="70" r="4"/><circle cx="627" cy="70" r="3"/><circle cx="573" cy="70" r="3"/>
+    <circle cx="520" cy="70" r="4"/><circle cx="566" cy="110" r="3"/><circle cx="566" cy="190" r="3"/>
+    <circle cx="520" cy="230" r="4"/><circle cx="573" cy="230" r="3"/><circle cx="627" cy="230" r="3"/>
+    <circle cx="680" cy="230" r="4"/>
+  </g>
+  <circle class="core" cx="612" cy="150" r="5.5"/>
+  <circle class="halo" cx="612" cy="150" r="5.5"/>
+  </g>
+
+  <text class="name" x="600" y="312" text-anchor="middle">[cB]-SIGMA</text>
+  <text class="line" x="600" y="340" text-anchor="middle">machines speak in dialects<tspan class="blink">_</tspan></text>
+</svg>
