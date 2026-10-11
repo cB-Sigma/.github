@@ -12,6 +12,7 @@
 |---|---|
 | [**dlms**](https://github.com/cB-Sigma/dlms) | DLMS/COSEM electricity meters, IEC 62056-21 and India's IS 15959 |
 | [**mbus**](https://github.com/cB-Sigma/mbus) | wired and wireless M-Bus, OMS, heat, water and gas meters |
+| [**lorawanns**](https://github.com/cB-Sigma/lorawanns) | LoRaWAN through ChirpStack, The Things Stack and five more |
 | [**lwm2m**](https://github.com/cB-Sigma/lwm2m) | LightweightM2M content formats and object model |
 | [**ocpp**](https://github.com/cB-Sigma/ocpp) | EV chargers, OCPP 1.6, 2.0.1 and 2.1 |
 | [**openadr**](https://github.com/cB-Sigma/openadr) | demand response, OpenADR 2.0b, 2.0a and 3 |
@@ -49,6 +50,7 @@ Each library has a twin that pretends to be the device, for tests and for the be
 
 [`dlms-sim`](https://github.com/cB-Sigma/dlms-sim) &nbsp;
 [`mbus-sim`](https://github.com/cB-Sigma/mbus-sim) &nbsp;
+[`lorawanns-sim`](https://github.com/cB-Sigma/lorawanns-sim) &nbsp;
 [`lwm2m-sim`](https://github.com/cB-Sigma/lwm2m-sim) &nbsp;
 [`ocpp-sim`](https://github.com/cB-Sigma/ocpp-sim) &nbsp;
 [`openadr-sim`](https://github.com/cB-Sigma/openadr-sim) &nbsp;
