@@ -23,6 +23,7 @@
 | [**mqttsn**](https://github.com/cB-Sigma/mqttsn) | MQTT-SN 1.2 and 2.0 for sensors that sleep |
 | [**shelly**](https://github.com/cB-Sigma/shelly) | Shelly relays, dimmers and sensors, Gen1 and Gen2+ |
 | [**hue**](https://github.com/cB-Sigma/hue) | Hue bridges, CLIP v2 and the event stream |
+| [**tplink**](https://github.com/cB-Sigma/tplink) | TP-Link Kasa and Tapo on the LAN |
 | [**miio**](https://github.com/cB-Sigma/miio) | Xiaomi miIO and MIoT on the LAN |
 | [**tuyalan**](https://github.com/cB-Sigma/tuyalan) | Tuya devices on the LAN, protocol 3.1 to 3.5 |
 | [**wiz**](https://github.com/cB-Sigma/wiz) | the local UDP API of WiZ lights |
@@ -51,6 +52,7 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`mqttsn-sim`](https://github.com/cB-Sigma/mqttsn-sim) &nbsp;
 [`shelly-sim`](https://github.com/cB-Sigma/shelly-sim) &nbsp;
 [`hue-sim`](https://github.com/cB-Sigma/hue-sim) &nbsp;
+[`tplink-sim`](https://github.com/cB-Sigma/tplink-sim) &nbsp;
 [`miio-sim`](https://github.com/cB-Sigma/miio-sim) &nbsp;
 [`tuyalan-sim`](https://github.com/cB-Sigma/tuyalan-sim) &nbsp;
 [`wiz-sim`](https://github.com/cB-Sigma/wiz-sim)
