@@ -23,6 +23,8 @@
 | [**talq**](https://github.com/cB-Sigma/talq) | TALQ smart-city lighting, gateway and CMS |
 | [**cap**](https://github.com/cB-Sigma/cap) | Common Alerting Protocol: alerts, signatures, areas, feeds |
 | [**schc**](https://github.com/cB-Sigma/schc) | SCHC header compression and fragmentation for LPWAN, and V.44 |
+| [**bacnet**](https://github.com/cB-Sigma/bacnet) | BACnet/IP, IPv6 and Secure Connect buildings |
+| [**enip**](https://github.com/cB-Sigma/enip) | EtherNet/IP and CIP, Logix tags |
 | [**knx**](https://github.com/cB-Sigma/knx) | KNX buildings over IP, KNX IP Secure, ETS projects and keyrings |
 | [**mqttsn**](https://github.com/cB-Sigma/mqttsn) | MQTT-SN 1.2 and 2.0 for sensors that sleep |
 | [**shelly**](https://github.com/cB-Sigma/shelly) | Shelly relays, dimmers and sensors, Gen1 and Gen2+ |
@@ -56,6 +58,8 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`mdns-sim`](https://github.com/cB-Sigma/mdns-sim) &nbsp;
 [`talq-sim`](https://github.com/cB-Sigma/talq-sim) &nbsp;
 [`cap-sim`](https://github.com/cB-Sigma/cap-sim) &nbsp;
+[`bacnet-sim`](https://github.com/cB-Sigma/bacnet-sim) &nbsp;
+[`enip-sim`](https://github.com/cB-Sigma/enip-sim) &nbsp;
 [`knx-sim`](https://github.com/cB-Sigma/knx-sim) &nbsp;
 [`mqttsn-sim`](https://github.com/cB-Sigma/mqttsn-sim) &nbsp;
 [`shelly-sim`](https://github.com/cB-Sigma/shelly-sim) &nbsp;
