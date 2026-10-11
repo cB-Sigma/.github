@@ -7,10 +7,12 @@
     .far { fill: #c3cad3; }
     .edge { stroke: #b4bfcb; stroke-width: 1.4; fill: none; }
     .node { fill: #4d5d70; }
-    .core { fill: #0b1220; }
-    .pulse { stroke: #0b1220; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-dasharray: 46 900; animation: run 6s linear infinite; }
-    .halo { fill: none; stroke: #4d5d70; stroke-width: 1; opacity: 0; transform-box: fill-box; transform-origin: center; animation: ping 6s ease-out infinite; }
+    .core { fill: #a86c22; }
+    .pulse { stroke: #a86c22; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-dasharray: 46 900; animation: run 6s linear infinite; }
+    .halo { fill: none; stroke: #a86c22; stroke-width: 1; opacity: 0; transform-box: fill-box; transform-origin: center; animation: ping 6s ease-out infinite; }
     .name { fill: #0b1220; font: 600 26px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 10px; }
+    .gold { fill: #a86c22; }
+    .brk { fill: #8c959f; }
     .line { fill: #5b6b7d; font: 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 3px; }
     .blink { animation: blink 1.2s steps(1) infinite; }
     @keyframes run { from { stroke-dashoffset: 946; } to { stroke-dashoffset: 0; } }
@@ -61,6 +63,6 @@
   <circle class="halo" cx="612" cy="150" r="5.5"/>
   </g>
 
-  <text class="name" x="600" y="312" text-anchor="middle">[cB]-SIGMA</text>
+  <text class="name" x="600" y="312" text-anchor="middle"><tspan class="brk">[</tspan><tspan class="gold">cB</tspan><tspan class="brk">]</tspan>-SIGMA</text>
   <text class="line" x="600" y="340" text-anchor="middle">machines speak in dialects<tspan class="blink">_</tspan></text>
 </svg>
