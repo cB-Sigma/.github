@@ -20,6 +20,7 @@
 | [**iec60870**](https://github.com/cB-Sigma/iec60870) | IEC 60870-5-104 and -101 telecontrol |
 | [**trackers**](https://github.com/cB-Sigma/trackers) | GT06, Teltonika, TK103, Queclink, Meitrack, Ruptela, JT/T 808, H02, OsmAnd, AIS-140 |
 | [**mdns**](https://github.com/cB-Sigma/mdns) | multicast DNS and DNS-SD that finds what answers in either voice |
+| [**talq**](https://github.com/cB-Sigma/talq) | TALQ smart-city lighting, gateway and CMS |
 | [**cap**](https://github.com/cB-Sigma/cap) | Common Alerting Protocol: alerts, signatures, areas, feeds |
 | [**schc**](https://github.com/cB-Sigma/schc) | SCHC header compression and fragmentation for LPWAN, and V.44 |
 | [**knx**](https://github.com/cB-Sigma/knx) | KNX buildings over IP, KNX IP Secure, ETS projects and keyrings |
@@ -53,6 +54,7 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`iec60870-sim`](https://github.com/cB-Sigma/iec60870-sim) &nbsp;
 [`trackers-sim`](https://github.com/cB-Sigma/trackers-sim) &nbsp;
 [`mdns-sim`](https://github.com/cB-Sigma/mdns-sim) &nbsp;
+[`talq-sim`](https://github.com/cB-Sigma/talq-sim) &nbsp;
 [`cap-sim`](https://github.com/cB-Sigma/cap-sim) &nbsp;
 [`knx-sim`](https://github.com/cB-Sigma/knx-sim) &nbsp;
 [`mqttsn-sim`](https://github.com/cB-Sigma/mqttsn-sim) &nbsp;
