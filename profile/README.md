@@ -38,6 +38,7 @@
 | [**miio**](https://github.com/cB-Sigma/miio) | Xiaomi miIO and MIoT on the LAN |
 | [**tuyalan**](https://github.com/cB-Sigma/tuyalan) | Tuya devices on the LAN, protocol 3.1 to 3.5 |
 | [**wiz**](https://github.com/cB-Sigma/wiz) | the local UDP API of WiZ lights |
+| [**iec62351**](https://github.com/cB-Sigma/iec62351) | IEC 62351 security: TLS profile, certificates, roles |
 | [**tlsx**](https://github.com/cB-Sigma/tlsx) | crypto/tls with pre-shared keys, raw public keys and the industrial edges |
 | [**iotcrypto**](https://github.com/cB-Sigma/iotcrypto) | CCM, KMAC, AES-MMO, brainpool, Koblitz curves, ECQV, ECMQV, SCRAM |
 | [**iotsec**](https://github.com/cB-Sigma/iotsec) | the seams through which a protocol reaches its security |
@@ -62,6 +63,7 @@ Each library has a twin that pretends to be the device, for tests and for the be
 [`openadr-sim`](https://github.com/cB-Sigma/openadr-sim) &nbsp;
 [`sunspec-sim`](https://github.com/cB-Sigma/sunspec-sim) &nbsp;
 [`iec61850-sim`](https://github.com/cB-Sigma/iec61850-sim) &nbsp;
+[`iec62351-sim`](https://github.com/cB-Sigma/iec62351-sim) &nbsp;
 [`dnp3-sim`](https://github.com/cB-Sigma/dnp3-sim) &nbsp;
 [`iec60870-sim`](https://github.com/cB-Sigma/iec60870-sim) &nbsp;
 [`indiagov-sim`](https://github.com/cB-Sigma/indiagov-sim) &nbsp;
