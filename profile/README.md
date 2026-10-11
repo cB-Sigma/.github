@@ -32,6 +32,7 @@ We write down what they say, in Go, and keep a copy of each machine to talk back
 | [**lanbcast**](https://github.com/cB-Sigma/lanbcast) | a broadcast that still finds the LAN behind a VPN |
 | [**xsd**](https://github.com/cB-Sigma/xsd) | W3C XML Schema 1.0 validation |
 | [**jsonschema**](https://github.com/cB-Sigma/jsonschema) | JSON Schema sets, ordered failures, dialects |
+| [**jscodec**](https://github.com/cB-Sigma/jscodec) | LoRaWAN payload codecs in JavaScript, run in a Go sandbox |
 | [**brokersim**](https://github.com/cB-Sigma/brokersim) | AMQP brokers that exist only inside a test |
 
 ### ∿ &nbsp;machines
