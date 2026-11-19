@@ -6,8 +6,7 @@
 
 <br>
 
-**Σ Sigma** is the open-source division of [Codebucket Solutions](https://codebuckets.in): speech software, database
-tools and protocol libraries, free to use.
+The open-source division of [Codebucket Solutions](https://codebuckets.in)
 
 ### Σ &nbsp;speech
 
