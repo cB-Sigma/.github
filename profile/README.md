@@ -6,12 +6,8 @@
 
 <br>
 
-**Σ Sigma** is the open-source division of [Codebucket Solutions](https://codebuckets.in). Codebucket builds
-software for businesses and governments; Sigma builds the parts underneath, the ones every project needs
-and nobody should have to write twice, and gives them away.
-
-So far: **speech** that runs on your own machine, **tools** for the databases you already run, and **machines** spoken
-to in their own protocols.
+**Σ Sigma** is the open-source division of [Codebucket Solutions](https://codebuckets.in): speech software, database
+tools and protocol libraries, free to use.
 
 ### Σ &nbsp;speech
 
