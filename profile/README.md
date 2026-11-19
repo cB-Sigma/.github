@@ -10,7 +10,8 @@
 software for businesses and governments; Sigma builds the parts underneath, the ones every project needs
 and nobody should have to write twice, and gives them away.
 
-Two things so far: **speech** that runs on your own machine, and **machines** spoken to in their own protocols.
+So far: **speech** that runs on your own machine, **tools** for the databases you already run, and **machines** spoken
+to in their own protocols.
 
 ### Σ &nbsp;speech
 
@@ -18,6 +19,12 @@ Two things so far: **speech** that runs on your own machine, and **machines** sp
 |---|---|
 | [**bolo**](https://github.com/cB-Sigma/bolo-speech) | Ollama for speech. Pull an open speech model by name and run it on your own machine behind OpenAI's API: speech to text, text to speech, voice cloning, who spoke when, voice agents and phone calls. [Live demo](https://cb-sigma.github.io/bolo-speech/) |
 | [**uccharan**](https://github.com/cB-Sigma/uccharan) | How text is said: a phonemiser, text normaliser and transliterator for speech systems, 44 languages, in Rust with Python and JavaScript bindings |
+
+### Σ &nbsp;tools
+
+| project | what it is |
+|---|---|
+| [**BetterMyAdmin**](https://github.com/cB-Sigma/better-myadmin) | phpMyAdmin, rebuilt: every feature for MySQL and MariaDB in a fast TypeScript and React app, no PHP, with a built-in MCP server for AI agents. A drop-in replacement for the phpmyadmin Docker image. [Docs](https://cb-sigma.github.io/better-myadmin/) |
 
 ### Σ &nbsp;machines
 
@@ -126,7 +133,7 @@ Protocol libraries in pure Go, for the meters, chargers, substations, buildings 
 small            one binary or one install, nothing else to run
 checked          against what others built: their code, their vectors, real devices
 honest           every README says what is missing, and who does it better
-apache-2.0       take it
+apache-2.0       take it (BetterMyAdmin is GPL-2.0, as phpMyAdmin is)
 ```
 
 <br>
